@@ -1,0 +1,10 @@
+const phrase = 'старый заказ оформлен'
+console.log(phrase.length)
+console.log(phrase.includes('заказ'))
+console.log(phrase.slice(0, 6))
+console.log(phrase.replace('старый', 'новый'))
+console.log(phrase)
+console.log(phrase.toUpperCase())
+console.log(phrase.includes('ЗАКАЗ'))
+console.log(phrase.slice(0, 3))
+console.log(phrase.replace('чек', 'заказ'))

@@ -1,0 +1,75 @@
+body {
+    background-color: #0b111e;
+    color: #e5d3b3;
+    padding: 40px;
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+.card {
+    background: #141d2f;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    padding: 30px;
+    border-left: 4px solid #c5a059;
+}
+
+.form {
+    background: #182236;
+    border-radius: 6px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border: 1px solid #2c3a57;
+    margin-bottom: 30px;
+}
+
+#result {
+    padding: 20px;
+    border: 1px solid #d4af37;
+    margin-top: 30px;
+    background-color: #1e291a;
+    color: #ffffff;
+}
+
+#report-json {
+    color: #39ff14;
+    background-color: #05080f;
+    padding: 20px;
+    font-family: "Consolas", Monaco, monospace;;
+    white-space: pre-wrap;
+}
+
+button {
+    background-color: #c5a059;
+    color: #0b111e;
+    border: 1px solid #d4af37;
+    padding: 10px 20px;
+    font-family: "Georgia", serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block; 
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d4af37;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+
+.form label {
+    display: block;
+     margin-bottom: 12px;
+    cursor: pointer;
+    color: #e5d3b3;
+}
+
+.form input[type="checkbox"] {
+    margin-right: 10px;
+}
